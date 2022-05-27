@@ -1,4 +1,7 @@
 
+* {
+	box-sizing: border-box;
+}
 body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300px;
@@ -9,7 +12,6 @@ body {
 	margin: auto;
 }
 h1{
-	font-family: 'Roboto', sans-serif;
 	font-weight: 500px;
 	text-align: center;
 }
@@ -33,7 +35,7 @@ hr {
 }
 p {
 	font-family: monospace;
-	line-height: 2rem;
+	line-height: 1.5rem;
 }
 
 h3 {
