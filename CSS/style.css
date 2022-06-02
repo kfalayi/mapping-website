@@ -5,8 +5,10 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300px;
+	background-image: url('images/img.jpeg');
 
 }
+
 .header {
 	max-width: 50rem;
 	margin: auto;
@@ -24,11 +26,14 @@ h1{
 	max-width: 50rem;
 	margin: auto;
 }
-.footer {
+footer {
+	font-weight: 100px;
 	max-width: 50rem;
-	margin: 2rem auto;
-	border-color: rgb(65, 64, 64);
+	margin: auto;
+	text-align: center;
+	border-color: rgb(52, 50, 50);
 }
+
 hr {
 	max-width: 60rem;
 	margin: auto;
