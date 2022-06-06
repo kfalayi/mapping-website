@@ -36,12 +36,12 @@ footer {
 
 hr {
 	max-width: 60rem;
-	margin: auto;
+	margin:4;
 }
 p {
 	font-family: monospace;
-	line-height: 1.5rem;
-	margin: 1em;
+	line-height: 1rem;
+	margin-bottom: 0em;
 }
 
 h3 {
