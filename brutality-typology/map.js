@@ -102,7 +102,7 @@ var map2 = new mapboxgl.Map({
     zoom: 3,
     maxZoom: 12,
     minZoom: 3.2,
-    center: [-99, 38],
+    center: [-101, 38],
     maxBounds: [
       [-180, 15],
       [-30, 72],
