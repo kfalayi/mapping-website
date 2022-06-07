@@ -100,7 +100,7 @@ var map2 = new mapboxgl.Map({
     container: 'map2',
     style: 'mapbox://styles/lexyarthur/cl41dy6cp000z15p8u15c51pb',
     zoom: 3,
-    maxZoom: 12,
+    maxZoom: 13,
     minZoom: 3.2,
     center: [-101, 38],
     maxBounds: [
