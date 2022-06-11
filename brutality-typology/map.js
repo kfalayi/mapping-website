@@ -117,7 +117,7 @@ map2.on("load", function () {
     type: "line",
     source: {
         type: "geojson",
-        data: "data/statesOutline.geojson",
+        data: "data/policeBrutality.geojson",
     },
     paint: {
         "line-color": "#cfcfcf",
@@ -166,4 +166,24 @@ map2.on('mouseenter', 'brutality_incident', function () {
 });
 map2.on('mouseleave', 'brutality_incident', function () {
   map2.getCanvas().style.cursor = '';
+});
+
+
+map2.on("click", "us_police", function (e) {
+  var stateName = e.features[0].properties.state;
+  // var cityName = e.features[0].properties.city;
+  var date = e.features[0].properties.date;
+  var description = e.features[0].properties.description;
+  new mapboxgl.Popup()
+    .setLngLat(e.lngLat)
+    .setHTML(
+      "<h2>" + cityName + ", " + stateName + "</h2>" +
+        "<p>" + date + "</p>" + "<p>" + description + "</p>")
+    .addTo(map2);
+});
+map2.on("mouseenter", "us_police", function () {
+  map2.getCanvas().style.cursor = "pointer";
+});
+map2.on("mouseleave", "us_police", function () {
+  map2.getCanvas().style.cursor = "";
 });
