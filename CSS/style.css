@@ -64,9 +64,9 @@ span {
 	text-align: center;
 }
 
-li {
+/* li { */
 	/* box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2); */
-    margin-bottom: 30px;
+    /* margin-bottom: 30px;
 	margin-left: 200;
     display: inline-block;
 	height: 450px;
@@ -75,7 +75,7 @@ li {
     margin: 20px;
     text-align: center;
 	max-width: 50rem;
-}
+} */
 img {
 	height: 180px;
 	width: 240px;
@@ -100,7 +100,7 @@ img {
 }
 
 .story-card > li {
-	box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2);
+		box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2);
 		margin-bottom: 30px;
 		display: inline-block;
 		width: 240px;
