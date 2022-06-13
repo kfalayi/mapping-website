@@ -125,7 +125,7 @@ map2.on('click', 'citibike-stop20', function (e) {
         .setLngLat(e.lngLat)
         .setHTML('<h4>' +'Station name' + ': ' + stationName + '</h4>'
             + '<h2>' + 'Trips' + ': ' + tripCount + '</h2>')
-        .addTo(map);
+        .addTo(map2);
   });
   map2.on('mouseenter', 'citibike-stop20', function () {
     map2.getCanvas().style.cursor = 'pointer';
@@ -191,10 +191,10 @@ map3.on('click', 'citibike-start21', function (e) {
         .setLngLat(e.lngLat)
         .setHTML('<h4>' +'Station name' + ': ' + stationName + '</h4>'
             + '<h2>' + 'Trips' + ': ' + tripCount + '</h2>')
-        .addTo(map);
+        .addTo(map3);
   });
   map3.on('mouseenter', 'citibike-start21', function () {
-    map.getCanvas().style.cursor = 'pointer';
+    map3.getCanvas().style.cursor = 'pointer';
   });
   map3.on('mouseleave', 'citibike-start21', function () {
     map3.getCanvas().style.cursor = '';
@@ -226,7 +226,7 @@ map4.on('load', function () {
         }
     }
     map4.addLayer({
-        id: "citibike-stop20",
+        id: "citibike-stop21",
         type: "circle",
         source: {
         type: "geojson",
@@ -256,10 +256,10 @@ map4.on('click', 'citibike-stop21', function (e) {
         .setLngLat(e.lngLat)
         .setHTML('<h4>' +'Station name' + ': ' + stationName + '</h4>'
             + '<h2>' + 'Trips' + ': ' + tripCount + '</h2>')
-        .addTo(map);
+        .addTo(map4);
   });
   map4.on('mouseenter', 'citibike-stop21', function () {
-    map.getCanvas().style.cursor = 'pointer';
+    map4.getCanvas().style.cursor = 'pointer';
   });
   map4.on('mouseleave', 'citibike-stop21', function () {
     map4.getCanvas().style.cursor = '';
