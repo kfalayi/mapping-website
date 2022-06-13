@@ -233,16 +233,15 @@ p {
 	height: auto;
 }
 
-@media (min-width: 560px){
+/* @media (min-width: 560px){
 	.column-container {
 	}
 
 }
 @media (max-width: 768px) {
-	#g-us_Dollar-mobile{
 		display: block;
-	}
-}
+
+} */
 
 .title div span {
 	border-radius: 50%;
