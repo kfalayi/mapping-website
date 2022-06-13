@@ -36,11 +36,12 @@ footer {
 
 hr {
 	max-width: 60rem;
-	margin: auto;
+	margin:4;
 }
 p {
 	font-family: monospace;
-	line-height: 1.5rem;
+	line-height: 1rem;
+	margin-bottom: 0em;
 }
 
 h3 {
@@ -63,9 +64,9 @@ span {
 	text-align: center;
 }
 
-li {
+/* li { */
 	/* box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2); */
-    margin-bottom: 30px;
+    /* margin-bottom: 30px;
 	margin-left: 200;
     display: inline-block;
 	height: 450px;
@@ -74,7 +75,7 @@ li {
     margin: 20px;
     text-align: center;
 	max-width: 50rem;
-}
+} */
 img {
 	height: 180px;
 	width: 240px;
@@ -96,4 +97,14 @@ img {
     text-align: center;
 	max-width: 50rem;
 
+}
+
+.story-card > li {
+		box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2);
+		margin-bottom: 30px;
+		display: inline-block;
+		width: 240px;
+		vertical-align: top;
+		margin: 20px;
+		text-align: center;
 }
