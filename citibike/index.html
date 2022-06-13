@@ -15,34 +15,34 @@
    
     <p>These maps represents the origin and termination points of all Citibike trips in New York City in the month of September for 
         2020 and 2021. The maps on the left are start trips while the ones on the left are end trips</p>
-    <div class="column-container">
-        <div id='map'></div>
-        <div id='title' class="title">
-            <h2>1. Where rides started in Sep 2020</h2>
-            <hr>
-            <p style="font-size: 14px">2. Where rides ended in Sep 2020</p>
-            <p style="font-size: 14px">3. Where rides started in Sep 2021</p>
-            <p style="font-size: 14px">4. Where rides ended in Sep 2021</p>
-            <!-- <div id="typology-legend" class="legend"> -->
-            <p><em>Zoom in and click for details</em></p>
-            <div><span id="first" style="background-color: #dd31f7"></span>1 station, 10 trips</div>
-            <div><span id="second" style="background-color: #dd31f7"></span>14k trips</div>
+    <div class="columns">
+        <div class="column is-half-desktop is-full-mobile is-full-tablet">
+            <div id='map'></div>
+            <div id='title' class="title">
+                <p style="font-size: 14px">1. Sep 2020 ride startpoints</p>
+                <p style="font-size: 14px">2. Sep 2020 ride endpoints</p>
+                <p style="font-size: 14px">3. Sep 2021 ride startpoints</p>
+                <p style="font-size: 14px">4. Sep 2021 ride endpoints</p>
+                <hr>
+                <!-- <div id="typology-legend" class="legend"> -->
+                <p><em>Zoom in and click for details</em></p>
+                <div><span id="first" style="background-color: #dd31f7"></span>1 station, 10 trips</div>
+                <div><span id="second" style="background-color: #dd31f7"></span>14k trips</div>
+            </div>
         </div>
-        <div id='title' class="title2">
-            <h2>2.</h2>
-        </div>
-        <div id='map2'></div>
-    </div>
     
-    <div class="column-container">
-        <div id='title' class="title3">
-            <h2>3.</h2>
+        <div class="column is-half-desktop is-full-mobile is-full-tablet">
+            <div id='map2'></div>
         </div>
-        <div id='map3'></div>
-        <div id='title' class="title4">
-            <h2>4.</h2>
+    </div>
+
+    <div class="columns">
+        <div class="column is-half-desktop is-full-mobile is-full-tablet">
+            <div id='map3'></div>
         </div>
-        <div id='map4'></div>
+        <div class="column is-half-desktop is-full-mobile is-full-tablet">
+            <div id='map4'></div>
+        </div>
     </div>
     <script type='text/javascript' src="map.js"></script>
     
