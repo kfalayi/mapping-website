@@ -32,9 +32,14 @@ map.on('load', function () {
         'circle-color': '#dd31f7',
         'circle-stroke-color': '#4d4d4d',
         'circle-stroke-width': 0.4,
-        'circle-opacity': 0.5,
-        'circle-radius': 3,
-        
+        'circle-opacity': 0.3,
+        'circle-radius': {
+            'property': 'tripCount',
+            'stops': [
+            [10, 1],
+            [14000, 20]
+            ]
+        }
         }
     }, firstSymbolId);
 
@@ -98,9 +103,14 @@ map2.on('load', function () {
         'circle-color': '#dd31f7',
         'circle-stroke-color': '#4d4d4d',
         'circle-stroke-width': 0.4,
-        'circle-opacity': 0.5,
-        'circle-radius': 3,
-        
+        'circle-opacity': 0.3,
+        'circle-radius': {
+            'property': 'tripCount',
+            'stops': [
+            [10, 1],
+            [14000, 20]
+            ]
+        }   
         }
     }, firstSymbolId);
 
@@ -161,9 +171,14 @@ map3.on('load', function () {
         'circle-color': '#dd31f7',
         'circle-stroke-color': '#4d4d4d',
         'circle-stroke-width': 0.4,
-        'circle-opacity': 0.5,
-        'circle-radius': 3,
-        
+        'circle-opacity': 0.3,
+        'circle-radius': {
+            'property': 'tripCount',
+            'stops': [
+            [10, 1],
+            [14000, 20]
+            ]
+        }
         }
     }, firstSymbolId);
 
@@ -221,9 +236,14 @@ map4.on('load', function () {
         'circle-color': '#dd31f7',
         'circle-stroke-color': '#4d4d4d',
         'circle-stroke-width': 0.4,
-        'circle-opacity': 0.5,
-        'circle-radius': 3,
-        
+        'circle-opacity': 0.3,
+        'circle-radius': {
+            'property': 'tripCount',
+            'stops': [
+            [10, 1],
+            [14000, 20]
+            ]
+        }
         }
     }, firstSymbolId);
 
