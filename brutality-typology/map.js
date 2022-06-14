@@ -150,15 +150,14 @@ map2.on("load", function () {
 
 // Create the popup
 
+
 map2.on('click', 'brutality_incident', function (e) {
-  let state = e.feature[0].properties.state
-  let incident = e.features[0].properties.description;
-  // state = state.toUpperCase();
-  // incident = incident.toUpperCase();
+  var state = e.features[0].properties.state;
+  var incident= e.features[0].properties.description;
   new mapboxgl.Popup()
       .setLngLat(e.lngLat)
-      .setHTML('<h4>' + state + '</h4>'
-          + '<h2>' + incident + '</h2>')
+      .setHTML('<h2>' + state + '</h2>'
+          + '<p>' + incident + '</p>')
       .addTo(map2);
 });
 map2.on('mouseenter', 'brutality_incident', function () {
