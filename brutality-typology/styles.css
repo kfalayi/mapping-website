@@ -5,7 +5,6 @@ body {
     margin: 0 auto;
     font-family: 'Merriweather';
     font-size: 18px;
-	/* background-color: #EEE9E1; */
 }
 
 h1 {
@@ -29,7 +28,9 @@ h2 {
 	margin-bottom: 0px;
 	padding-bottom: 0px;
 }
-
+/* h4 {
+margin-bottom: 0px;
+} */
 .story {
 	display: flex;
 	justify-content: center;
@@ -47,42 +48,19 @@ p {
 
 
 #map {
-	height:500px;
-	width:450px;
-	background-color: gray;
-	position: relative;
-	float:left;
-	margin: 20px;
+    width: 100%;
+    height: 600px;
+    margin: 5em auto;
     margin-left: 30em auto;
 
 }
 #map2 {
-	height:500px;
-	width:450px;
-	position:relative;
-	float:left;
-	margin: 20px;
-    margin-left: 30em auto;
+    width: 100%;
+    height: 600px;
+    margin: 5em auto;
+    /* margin-left: 30em auto; */
 }
 
-#map3 {
-	height:500px;
-	width:450px;
-	background-color: gray;
-	position: relative;
-	float:left;
-	margin: 20px;
-    margin-left: 30em auto;
-}
-#map4 {
-	height:500px;
-	width:450px;
-	background-color: gray;
-	position: relative;
-	float:left;
-	margin: 20px;
-    margin-left: 30em auto;
-}
 .mapboxgl-popup-content h4 {
     font-weight: 300;
     font-size: 0.9em;
@@ -118,14 +96,12 @@ p {
 	z-index: 90;
 }
 
-/* .title h1{
+.title h1{
 	opacity: 100%;
     font-weight: 300;
     font-weight: bold;
-    margin-top: 5px;
-	line-height: 1.1em;
-} */
-
+    margin-top: 10px;
+}
 .title p {
 	line-height: 1em;
 	opacity: 100%;
@@ -134,7 +110,14 @@ p {
     margin-top: .5em;
     margin-left: 0px;
 }
-
+.title div span {
+	border-radius: 30%;
+	display: inline-block;
+	height: 5px;
+	margin-left: 0px;
+    margin-right: 10px;
+	width: 5px;
+}
 .title hr {
 	border-top: .2em dashed #404040;
 	border-bottom: 0em;
@@ -154,7 +137,10 @@ p {
     left: 10px;
     
 }
-
+/* #typology-legend {
+    margin-bottom: 5px;
+    top: 290px;
+} */
 .legend div span {
 	border-radius: 0%;
 	display: inline-block;
@@ -183,42 +169,42 @@ p {
 	opacity: 100%;
     font-weight: 300;
     font-weight: bold;
-    margin-top: 5px;
-	line-height: 1.1em;
-} */
+    margin-top: 10px;
+}
 
-.title2 p {
-	line-height: 1.2em;
+/* .title2 p {
+	line-height: 1em;
 	opacity: 100%;
     padding-top: 0px;
-    padding-left: 10px;
     margin-top: .5em;
-    margin-left: 0px;
-}
+} */
 
-#first {
+/* .title2 div span {
 	border-radius: 100%;
 	display: inline-block;
-	height: 3px;
+	height: 10px;
 	margin-left: 5px;
     margin-right: 5px;
-	width: 3px;
-}
-#second {
-	border-radius: 100%;
-	display: inline-block;
-	height: 40px;
-	margin-left: 5px;
-    margin-right: 5px;
-	width: 40px;
-}
+	width: 10px;
+} */
 
 
-.title2 hr {
+/* .title2 hr {
 	border-top: .2em dashed #404040;
 	border-bottom: 0em;
 	margin-top: .75em;
 	margin-bottom: .20em;
+} */
+
+
+
+/* .legend2 h4 {
+	margin: 0 0 0px;
+	opacity: 100%
+} */
+.legend2 p {
+	padding-top: 0px;
+	margin-top: 0px;
 }
 .legend2 span {
 	border-radius: 50%;
