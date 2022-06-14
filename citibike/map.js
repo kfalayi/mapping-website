@@ -53,7 +53,7 @@ map.on('click', 'citibike-start20', function (e) {
     new mapboxgl.Popup()
         .setLngLat(e.lngLat)
         .setHTML('<h4>' +'Station name' + ': ' + stationName + '</h4>'
-            + '<h2>' + 'Trips' + ': ' + tripCount + '</h2>')
+            + '<h2>' + 'Number of departures from station' + ': ' + tripCount + '</h2>')
         .addTo(map);
   });
   map.on('mouseenter', 'citibike-start20', function () {
@@ -123,7 +123,7 @@ map2.on('click', 'citibike-stop20', function (e) {
     var tripCount = e.features[0].properties.tripCount;
     new mapboxgl.Popup()
         .setLngLat(e.lngLat)
-        .setHTML('<h4>' +'Station name' + ': ' + stationName + '</h4>'
+        .setHTML('<h4>' +'Number of arrivals at station' + ': ' + stationName + '</h4>'
             + '<h2>' + 'Trips' + ': ' + tripCount + '</h2>')
         .addTo(map2);
   });
@@ -189,7 +189,7 @@ map3.on('click', 'citibike-start21', function (e) {
     var tripCount = e.features[0].properties.tripCount;
     new mapboxgl.Popup()
         .setLngLat(e.lngLat)
-        .setHTML('<h4>' +'Station name' + ': ' + stationName + '</h4>'
+        .setHTML('<h4>' +'Number of departures from station' + ': ' + stationName + '</h4>'
             + '<h2>' + 'Trips' + ': ' + tripCount + '</h2>')
         .addTo(map3);
   });
@@ -254,7 +254,7 @@ map4.on('click', 'citibike-stop21', function (e) {
     var tripCount = e.features[0].properties.tripCount;
     new mapboxgl.Popup()
         .setLngLat(e.lngLat)
-        .setHTML('<h4>' +'Station name' + ': ' + stationName + '</h4>'
+        .setHTML('<h4>' +'NUmber of arrivals at station' + ': ' + stationName + '</h4>'
             + '<h2>' + 'Trips' + ': ' + tripCount + '</h2>')
         .addTo(map4);
   });
